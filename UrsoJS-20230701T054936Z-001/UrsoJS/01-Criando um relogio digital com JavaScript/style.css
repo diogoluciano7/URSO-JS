@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'DS-DIGITAL';
+    src: url('./ds_digital/DS-DIGIT.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #aaa;
+}
+
+.relogio {
+  /*  border: 2px solid red; borda */
+    height: 100vh; /* ocupa a tela inteira*/
+    display: flex; /* fica um ao lado do outro*/
+    flex-direction: column; /*fica em colunas*/
+    align-items: center; /*centraliza o conteudo no topo */
+    justify-content: center; /**/
+}
+
+.display {
+    background-color: #2c2e43; /*cor de fundo*/
+    width: 300px; /*largura*/
+    height: 200px; /*altura */
+    text-align: center; /* só alinha texto */
+    line-height: 200px; 
+    border-radius: 10px; /*deixa os cantos arrendondados.*/
+    color: #fff; /*da cor ao texto */
+    font-size: 5rem; /*tamanho do texto*/
+    font-family: 'DS-DIGITAL', sans-serif; 
+    border: 10px solid #ffD523;
+}
+
+footer {
+    font-size: 2rem;
+    margin-top: 10px; /*coloca o texto um pouco para baixo*/
+    color: #333;
+    font-family: 'Barlow Condensed', sans-serif;
+}
